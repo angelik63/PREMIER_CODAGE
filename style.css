@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(45 , 106 , 79);
+}
+nav {
+    border-bottom: 1px solid black;
+  }
+
+  ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .logo {
+    height: 150px;
+    display: inline-flex ;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    justify-content: space-around;
+   
+        
+  }
+  h2 {
+    color: blue;
+    display: flex;
+    justify-content: center;
+  
+   
+  }
+  h3 {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .section {
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: rgb(244, 162, 97);
+    border-radius: 5%;
+    width: 75%;
+    
+
+  }
+  .animal {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    
+
+  }
