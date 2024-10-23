@@ -1,8 +1,10 @@
 body{
   background-color: rgb(45 , 106 , 79);
+  
 }
 nav {
     border-bottom: 1px solid black;
+    justify-content: baseline;
   }
 
   ol {
@@ -12,7 +14,7 @@ nav {
   }
   
   .logo {
-    height: 150px;
+    /* height: 150px; */
     display: inline-flex ;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -33,18 +35,60 @@ nav {
     justify-content: center;
     
   }
-  .section {
+ 
+  .promotion {
     border: rgb(0, 0, 0) solid 2px;
     background-color: rgb(244, 162, 97);
     border-radius: 5%;
-    width: 75%;
-    
+    width: 100%;
+  }
 
+  .promo {
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: rgb(244, 162, 97);
+    border-radius: 5%;
+    width: 100%;
+  }
+
+  .educative {
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: rgb(233, 227, 214);
+    border-radius: 5%;
+    width: 100%;
+  
+  }
+ 
+
+  .responsabilité {
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: rgb(244, 162, 97);
+    border-radius: 5%;
+    width: 100%;
+   
+  }
+
+  
+  .avis {
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: rgb(244, 162, 97);
+    border-radius: 5%;
+    width: 100%;
   }
   .animal {
     display: inline-flex;
     width: 100px;
     height: 100px;
-    
-
   }
+
+  .animaux {
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: rgb(233, 227, 214);
+    border-radius: 5%;
+    width: 100%;
+  }
+  @media(min-width : 767px){
+  .responsabilité , .educative, .avis, .promotion{
+    width: 75%;
+    
+  }
+}
