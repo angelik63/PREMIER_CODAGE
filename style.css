@@ -1,94 +1,123 @@
 body{
   background-color: rgb(45 , 106 , 79);
-  
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ h2, h3 {
+
+  display: flex;
+  justify-content: center;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: white;
+  width:250px;
+  margin:auto;
+  border: #000000 solid 2px;
+  border-radius: 5%;
+  box-shadow: 5px 3px 3px  rgb(71, 69, 69);
+
 }
-nav {
-    border-bottom: 1px solid black;
-    justify-content: baseline;
-  }
 
-  ol {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-  }
+ol {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+
+.haut{
+  background-color:rgb(217, 217, 217) ;
+
+}
+
+#logo{
+  display:flex;
+  padding-top: 0px;
+}
+
+.promotion {
+  background-color: rgb(244, 162, 97);
+  padding: 5px;
+  box-shadow: 5px 3px 3px  rgb(71, 69, 69);
+ }
+
+ .categorie{
+  background-color: rgb(233, 227, 214);
+  padding: 5px;
+  box-shadow: 5px 3px 3px  rgb(71, 69, 69);
+ }
+
+ .education{
+  background-color: rgb(233, 227, 214);
+  padding: 5px;
+  box-shadow: 5px 3px 3px  rgb(71, 69, 69);
+ }
+
+ .responsabilite{
+  background-color: rgb(233, 227, 214);
+  padding: 5px;
+  box-shadow: 5px 3px 3px  rgb(71, 69, 69);
+ }
+
+ .avis{
+  background-color: rgb(244, 162, 97);
+  padding: 5px;
+  box-shadow: 5px 3px 3px  rgb(71, 69, 69);
+ }
+
+ .renseignement{
+  background-color:rgb(217, 217, 217) ;
+ }
+
+ .lien{
+  background-color: rgb(233, 227, 214);
+  display: flex;
+ }
+
+ .reseau{
+  display: flex;
+  align-items: end;
   
-  .logo {
-    /* height: 150px; */
-    display: inline-flex ;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    justify-content: space-around;
-   
-        
-  }
-  h2 {
-    color: blue;
-    display: flex;
-    justify-content: center;
-  
-   
-  }
-  h3 {
-    color: blue;
-    display: flex;
-    justify-content: center;
-    
-  }
+ }
+
+ .promo {
+  background-color: rgb(244, 162, 97);
+  border-radius: 5%;
+  border: black solid 2px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 5px 3px 3px  rgb(71, 69, 69);
+  margin:5px;
+ }
+
+ .animaux {
+  background-color: rgb(244, 162, 97);
+  border-radius: 5%;
+  border: black solid 2px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 5px 3px 3px  rgb(71, 69, 69);
+  margin:5px;
+ }
+
+ .menu {
+  background-color: rgb(244, 162, 97);
+  border-radius: 5%;
+  border: black solid 2px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 5px 3px 3px  rgb(71, 69, 69);
+  margin:5px;
+ }
  
-  .promotion {
-    border: rgb(0, 0, 0) solid 2px;
-    background-color: rgb(244, 162, 97);
-    border-radius: 5%;
-    width: 100%;
-  }
+ footer {
+  font-size:10px;
+ }
 
-  .promo {
-    border: rgb(0, 0, 0) solid 2px;
-    background-color: rgb(244, 162, 97);
-    border-radius: 5%;
-    width: 100%;
-  }
-
-  .educative {
-    border: rgb(0, 0, 0) solid 2px;
-    background-color: rgb(233, 227, 214);
-    border-radius: 5%;
-    width: 100%;
-  
-  }
- 
-
-  .responsabilité {
-    border: rgb(0, 0, 0) solid 2px;
-    background-color: rgb(244, 162, 97);
-    border-radius: 5%;
-    width: 100%;
-   
-  }
-
-  
-  .avis {
-    border: rgb(0, 0, 0) solid 2px;
-    background-color: rgb(244, 162, 97);
-    border-radius: 5%;
-    width: 100%;
-  }
-  .animal {
-    display: inline-flex;
-    width: 100px;
-    height: 100px;
-  }
-
-  .animaux {
-    border: rgb(0, 0, 0) solid 2px;
-    background-color: rgb(233, 227, 214);
-    border-radius: 5%;
-    width: 100%;
-  }
-  @media(min-width : 767px){
-  .responsabilité , .educative, .avis, .promotion{
+ @media  (min-width: 768px) {
+  .haut, .promotion, .categorie, .education, .responsabilite, .avis, .renseignement{
     width: 75%;
-    
   }
 }
+
+ 
